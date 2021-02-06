@@ -1,0 +1,150 @@
+nav 
+    background-color: white
+    padding: 20px 0px 20px 0px
+    margin-left: -150px  
+    min-height: 70px
+    position: fixed
+    width: 111%
+
+a
+    &.links
+        &_a
+            width: 50px
+            margin-right: 30px
+            &:last-child
+                margin-right: -130px
+img
+    &.logo
+        &_pic
+            width: 90px
+            margin-right: 30px
+            border-radius: 100%
+            transition: 1s all ease-out
+            &:hover
+                transform: scale(1.2)
+                transition: 1s all
+.links
+    &_block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-direction: row
+        &_logo
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: row
+    &_wrapper   
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-direction: row
+    &_name  
+        margin-right: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        background-color: white 
+        padding: 10px 5px 10px 5px
+        color: black
+        transition: 1s all ease-out
+        &:hover
+            transform: scale(1.1)
+            transition: 1s all
+            color: black
+            text-decoration: none
+            text-shadow: 3px 3px 20px rgba(000, 000,000, 0.5) 
+    &_item
+        margin-right: 60px  
+        float: none
+        color: black
+        text-decoration: none
+        display: block
+        text-align: center
+        transition: all 1s ease-out
+        &:last-child
+            margin-right: 50px
+        &:hover
+            text-decoration: none
+            color: black
+            transform: scale(1.19)
+            transition: 1s all
+            text-shadow: 3px 3px 20px rgba(000, 000,000, 0.3) 
+    &_logo
+        border: solid
+        border-radius: 100%
+        border-color: black
+        width: 50px
+        margin-right: 30px
+        cursor: pointer
+        border-width: 2px  
+        transition: 1s all ease-out
+        &:hover
+            transform: scale(1.1) 
+            transition: 1s all
+            background-color: rgba(222,184,135, 1)
+            box-shadow: 3px 3px 20px rgba(222,184,135, 1)
+        img
+            margin: 10px 10px 10px 10px
+            width: 25px
+        &:last-child
+            margin-right: -30px
+.dropdown
+    overflow: hidden
+    display: block 
+    &-content
+        display: none
+        position: absolute
+        background-color: rgba(222,184,135, 1)
+        min-width: 160px
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+        z-index: 1
+        &_active
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            left: 630px 
+            top: 65px
+            border-radius: 20px
+        a
+            float: none
+            color: black
+            text-decoration: none
+            padding: 10px 10px 10px
+            display: block
+            text-align: center
+            &:hover
+                background-color: rgba(255, 255, 255, 0.4)
+                transition: 1s all
+                border-radius: 10px
+    &_links 
+        width: 100%  
+.drop   
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center 
+    margin-right: 60px  
+    transition: 1s all  
+    &:hover
+        transform: scale(1.19)
+        transition: 1s all
+        text-shadow: 3px 3px 20px rgba(000, 000,000, 0.3) 
+        img
+            transform: rotate(180deg)
+            transition: 0.5s all
+    img
+        width: 15px
+        height: auto
+        transition: all 0.5s ease-out  
+
+.dropbtn
+    font-size: 16px  
+    border: none
+    outline: none
+    color: white
+    background-color: inherit
+    color: inherit
+    margin: 0
