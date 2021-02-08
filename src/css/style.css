@@ -85,7 +85,9 @@ img.logo_pic {
   padding: 10px 5px 10px 5px;
   color: black;
   -webkit-transition: 1s all ease-out;
-  transition: 1s all ease-out; }
+  transition: 1s all ease-out;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px; }
   .links_name:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
@@ -163,7 +165,7 @@ img.logo_pic {
           -ms-flex-align: center;
               align-items: center;
       left: 630px;
-      top: 65px;
+      top: 70px;
       border-radius: 20px; }
     .dropdown-content a {
       float: none;
@@ -374,14 +376,14 @@ img.logo_pic {
   font-weight: 500;
   margin-top: 20px; }
 .elos_descr {
-  margin-right: 30px; }
+  margin-right: 110px; }
 .elos_text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -396,6 +398,8 @@ img.logo_pic {
   background-color: burlywood;
   padding: 30px;
   border-radius: 20px; }
+.elos_price {
+  text-transform: none; }
 .elos_money {
   border: solid;
   border-width: 2px;
@@ -733,5 +737,13 @@ footer {
             transform: scale(1.17);
     -webkit-transition: 1s all;
     transition: 1s all; }
+
+.pilling {
+  background-color: rgba(222, 184, 135, 0.7);
+  padding: 170px 0px 60px 0px; }
+  .pilling_title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */
