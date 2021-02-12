@@ -630,7 +630,7 @@ footer {
       -ms-flex-direction: row;
           flex-direction: row; }
 .footer_name {
-  font-size: 19px;
+  font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -647,7 +647,8 @@ footer {
   padding: 10px 5px 10px 5px;
   color: black;
   -webkit-transition: 1s all ease-out;
-  transition: 1s all ease-out; }
+  transition: 1s all ease-out;
+  font-family: "Dancing Script", cursive; }
   .footer_name:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
