@@ -37,6 +37,12 @@ $(document).ready(function(){
             $('.overlay, #consultation').fadeIn('slow');
         });
     });
+    $('.cosm_price').each(function(i){
+      $(this).on('click', function(){
+        $('#consultation .modal_descr');
+          $('.overlay, #consultation').fadeIn('slow');
+      });
+  });
     $('form').submit(function(e) {
       e.preventDefault();
       $.ajax({

@@ -355,7 +355,7 @@ img.logo_pic {
 
 .cosmetology {
   background-color: rgba(222, 184, 135, 0.7);
-  min-height: 1300px; }
+  min-height: 1150px; }
 
 .cosmetology_title {
   text-align: center;
@@ -483,6 +483,40 @@ img.logo_pic {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row; }
+
+.nails_cosm {
+  margin-top: 50px;
+  background-color: burlywood;
+  padding: 20px 10px 20px 10px;
+  border-radius: 20px;
+  width: 520px;
+  height: auto;
+  display: block;
+  margin: 50px auto 0px auto; }
+
+.cosm_text2 {
+  text-align: center;
+  text-transform: uppercase; }
+.cosm_price {
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: solid;
+  border-color: black;
+  width: 30%;
+  border-width: 2px;
+  height: 70px;
+  padding: 20px 0px 0px 0px;
+  -webkit-transition: 1s all ease-out;
+  transition: 1s all ease-out;
+  cursor: pointer; }
+  .cosm_price:hover {
+    -webkit-transform: scale(1.17);
+            transform: scale(1.17);
+    -webkit-transition: 1s all;
+    transition: 1s all; }
 
 .cut {
   background-color: rgba(222, 184, 135, 0.7);
@@ -725,7 +759,7 @@ footer {
   margin-top: 20px;
   border: solid;
   border-color: black;
-  width: 30%;
+  width: 35%;
   border-width: 2px;
   height: 70px;
   padding: 20px 0px 0px 0px;
@@ -737,6 +771,12 @@ footer {
             transform: scale(1.17);
     -webkit-transition: 1s all;
     transition: 1s all; }
+.hair_pic {
+  margin-left: 150px; }
+  .hair_pic img {
+    margin-top: 40px; }
+    .hair_pic img:nth-last-child(2) {
+      margin-top: 30px; }
 
 .pilling {
   background-color: rgba(222, 184, 135, 0.7);
