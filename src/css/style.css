@@ -787,4 +787,161 @@ footer {
     font-size: 35px;
     font-weight: 500; }
 
+.study {
+  background-color: rgba(222, 184, 135, 0.7);
+  padding: 50px 0px 60px 0px; }
+  .study_title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600; }
+  .study_descr {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px; }
+  .study_wrapper {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 18px; }
+  .study_text {
+    padding: 0px 100px 0px 100px; }
+  .study_pic {
+    width: 400px;
+    height: auto; }
+  .study_btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: burlywood;
+    border: solid;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    border-color: rgba(222, 184, 135, 0.7);
+    font-weight: 600;
+    font-size: 17px;
+    -webkit-transition: 1s all ease-out;
+    transition: 1s all ease-out;
+    padding-top: 10px;
+    cursor: pointer; }
+    .study_btn:hover {
+      -webkit-box-shadow: 3px 3px 20px burlywood;
+              box-shadow: 3px 3px 20px burlywood;
+      -webkit-transition: 1s all;
+      transition: 1s all;
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15); }
+  .study_name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .study_line {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: solid;
+    border-height: 1px;
+    border-bottom: none;
+    width: 80%; }
+  .study_programs {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px; }
+  .study_program {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .study_permanent {
+    border: solid;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: burlywood;
+    text-align: center;
+    width: 500px;
+    cursor: pointer;
+    -webkit-transition: 1s all ease-out;
+    transition: 1s all ease-out; }
+    .study_permanent:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      -webkit-transition: 1s all;
+      transition: 1s all; }
+  .study_makeup {
+    border: none;
+    font-size: 23px;
+    font-weight: 600; }
+  .study_make {
+    border: none;
+    font-size: 18px;
+    margin-top: 10px; }
+  .study_grow {
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: burlywood;
+    text-align: center;
+    width: 500px;
+    cursor: pointer;
+    -webkit-transition: 1s all ease-out;
+    transition: 1s all ease-out; }
+    .study_grow:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      -webkit-transition: 1s all;
+      transition: 1s all; }
+  .study_paint {
+    border: none;
+    font-size: 23px;
+    font-weight: 600; }
+  .study_pain {
+    margin-top: 10px;
+    border: none;
+    font-size: 18px; }
+  .study_more {
+    margin-top: 40px;
+    text-align: center; }
+  .study_after {
+    margin-top: 40px;
+    text-align: center; }
+
+.more_title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px; }
+.more_descr {
+  font-size: 18px; }
+
+.after_title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px; }
+.after_descr {
+  font-size: 18px; }
+
 /*# sourceMappingURL=style.css.map */

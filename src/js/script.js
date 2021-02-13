@@ -43,6 +43,24 @@ $(document).ready(function(){
           $('.overlay, #consultation').fadeIn('slow');
       });
   });
+  $('.study_btn').each(function(i){
+    $(this).on('click', function(){
+      $('#consultation .modal_descr');
+        $('.overlay, #consultation').fadeIn('slow');
+    });
+});
+$('.study_permanent').each(function(i){
+  $(this).on('click', function(){
+    $('#consultation .modal_descr');
+      $('.overlay, #consultation').fadeIn('slow');
+  });
+});
+$('.study_grow').each(function(i){
+  $(this).on('click', function(){
+    $('#consultation .modal_descr');
+      $('.overlay, #consultation').fadeIn('slow');
+  });
+});
     $('form').submit(function(e) {
       e.preventDefault();
       $.ajax({
