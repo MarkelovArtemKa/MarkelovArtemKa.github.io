@@ -944,4 +944,102 @@ footer {
 .after_descr {
   font-size: 18px; }
 
+.about {
+  padding: 50px 0px 50px 0px; }
+  .about_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600; }
+  .about_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 30px; }
+  .about_text {
+    margin-right: 60px;
+    text-align: center;
+    margin-left: -40px; }
+  .about_name {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .about_descr {
+    font-size: 18px; }
+  .about_pic img {
+    width: 400px; }
+
+.contact {
+  background-color: rgba(222, 184, 135, 0.7);
+  padding: 40px 0px 60px 0px; }
+  .contact_title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600; }
+  .contact_wrapper {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .contact_links {
+    border: solid;
+    border-radius: 100%;
+    border-color: black;
+    width: 55px;
+    cursor: pointer;
+    border-width: 2px;
+    -webkit-transition: 1s all ease-out;
+    transition: 1s all ease-out; }
+    .contact_links:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      -webkit-transition: 1s all;
+      transition: 1s all;
+      background-color: burlywood;
+      -webkit-box-shadow: 3px 3px 20px burlywood;
+              box-shadow: 3px 3px 20px burlywood; }
+    .contact_links img {
+      margin: 10px 10px 10px 10px;
+      width: 30px; }
+  .contact_in {
+    margin-top: 5px; }
+
+a.contact_a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: black;
+  -webkit-transition: 1s all ease-out;
+  transition: 1s all ease-out;
+  text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
