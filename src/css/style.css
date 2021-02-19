@@ -1042,4 +1042,106 @@ a.contact_a {
   transition: 1s all ease-out;
   text-decoration: none; }
 
+@media (max-width: 1025px) {
+  img.logo_pic {
+    width: 80px;
+    margin-right: 20px; }
+
+  .links_name {
+    font-size: 18px;
+    margin-right: 0px; }
+
+  nav {
+    margin-left: -10px; }
+
+  a.links_item {
+    font-size: 16px; }
+
+  .dropbtn {
+    font-size: 17px; }
+
+  .links_a {
+    display: none; }
+
+  .dropdown-content.dropdown-content_active {
+    left: 405px; }
+
+  .main_descr {
+    font-size: 25px; }
+
+  .study_permanent {
+    width: 450px; }
+
+  .study_grow {
+    width: 450px; }
+
+  .about_text {
+    margin-left: 0px; }
+  .about_name {
+    font-size: 25px; }
+  .about_descr {
+    font-size: 16px; }
+
+  .contact_wrapper {
+    padding: 0px 80px 0px 80px; }
+
+  .footer_inside {
+    display: none; }
+  .footer img.footer_logo {
+    margin-right: 0px;
+    width: 150px; }
+
+  .nails_descr {
+    width: 420px; }
+  .nails_price {
+    width: 40%; }
+
+  .elos_text {
+    width: 420px; }
+  .elos_descr {
+    margin-right: 30px; }
+
+  .hair_price {
+    margin-top: 13px;
+    width: 45%; } }
+@media (max-width: 991px) {
+  .container {
+    max-width: 900px; }
+
+  .dropdown-content.dropdown-content_active {
+    left: 390px; }
+
+  .study_title {
+    font-size: 25px; }
+  .study_descr {
+    font-size: 18px; }
+  .study_name {
+    font-size: 25px; }
+  .study_main {
+    font-size: 18px;
+    text-align: center; }
+
+  .study_permanent {
+    width: 400px; }
+
+  .study_grow {
+    width: 400px; }
+
+  .nails_descr {
+    width: 350px; }
+  .nails_price {
+    width: 50%; }
+
+  .elos_text {
+    width: 350px;
+    text-transform: none; }
+  .elos_descr {
+    margin-right: 30px; }
+
+  .cosm_text2 {
+    text-transform: none; }
+
+  .hair_price {
+    width: 50%; } }
+
 /*# sourceMappingURL=style.css.map */
