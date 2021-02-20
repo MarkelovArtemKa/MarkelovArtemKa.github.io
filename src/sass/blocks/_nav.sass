@@ -5,6 +5,7 @@ nav
     min-height: 70px
     position: fixed
     width: 111%
+    z-index: 99999
 
 a
     &.links
@@ -142,11 +143,15 @@ img
         height: auto
         transition: all 0.5s ease-out  
 
-.dropbtn
-    font-size: 16px  
-    border: none
-    outline: none
-    color: white
-    background-color: inherit
-    color: inherit
-    margin: 0
+.links
+    &_item
+        &_btn
+            font-size: 16px  
+            border: none
+            outline: none
+            color: white
+            background-color: inherit
+            color: inherit
+            margin: 0
+.hamburger	
+    display: none

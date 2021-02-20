@@ -4,7 +4,8 @@ nav {
   margin-left: -150px;
   min-height: 70px;
   position: fixed;
-  width: 111%; }
+  width: 111%;
+  z-index: 99999; }
 
 a.links_a {
   width: 50px;
@@ -216,7 +217,7 @@ img.logo_pic {
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
 
-.dropbtn {
+.links_item_btn {
   font-size: 16px;
   border: none;
   outline: none;
@@ -224,6 +225,9 @@ img.logo_pic {
   background-color: inherit;
   color: inherit;
   margin: 0; }
+
+.hamburger {
+  display: none; }
 
 .main {
   background: url("../img/main.jpg") center top/cover no-repeat;
@@ -743,6 +747,9 @@ footer {
               transform: scale(1.17);
       -webkit-transition: 1s all;
       transition: 1s all; }
+  .nails_text2 {
+    font-size: 16px;
+    font-weight: 500; }
 
 .nails_wrapper_hair {
   margin-top: 20px; }
@@ -1143,5 +1150,141 @@ a.contact_a {
 
   .hair_price {
     width: 50%; } }
+@media (max-width: 850px) {
+  nav {
+    margin-left: -20px; }
+
+  .dropdown-content.dropdown-content_active {
+    left: 320px; }
+
+  .study_pic {
+    width: 350px; }
+  .study_text {
+    padding-right: 50px; }
+
+  .smas_line {
+    margin-top: 80px; }
+
+  .hair_pic {
+    margin-left: 0px; } }
+@media (max-width: 769px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 26px;
+    height: 12px; }
+    .hamburger span {
+      display: block;
+      height: 3px;
+      width: 100%;
+      background-color: black;
+      margin-bottom: 2px;
+      -webkit-transition: 0.5s all;
+      transition: 0.5s all; }
+    .hamburger_active span {
+      margin-bottom: -2px; }
+      .hamburger_active span:nth-child(1) {
+        -webkit-transform: translateY(3px) rotate(-45deg);
+                transform: translateY(3px) rotate(-45deg); }
+      .hamburger_active span:nth-child(2) {
+        display: none; }
+      .hamburger_active span:nth-child(3) {
+        -webkit-transform: translateY(3px) rotate(45deg);
+                transform: translateY(3px) rotate(45deg); }
+
+  .links_block_hamburger {
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: space-between;
+        -ms-flex-align: space-between;
+            align-items: space-between;
+    top: 0%;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    padding: 150px 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all; }
+    .links_block_hamburger_active {
+      left: 0%; }
+  .links_block_logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto; }
+  .links_item {
+    color: white;
+    font-size: 20px;
+    margin-right: 0px; }
+    .links_item:last-child {
+      margin-right: 0px; }
+    .links_item:hover {
+      color: white;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transition: 1s all;
+      transition: 1s all; }
+
+  a.links_item {
+    color: white;
+    font-size: 20px;
+    margin-right: 0px; }
+    a.links_item:last-child {
+      margin-right: 0px; }
+    a.links_item:hover {
+      color: white;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transition: 1s all;
+      transition: 1s all; }
+
+  img.down {
+    display: none; }
+
+  .drop {
+    margin-right: 0px; }
+
+  .dropdown-content.dropdown-content_active {
+    left: 85px;
+    top: 190px; }
+
+  .study_pic {
+    display: none; }
+  .study_grow {
+    width: 350px; }
+  .study_permanent {
+    width: 350px; }
+
+  nav {
+    margin-left: -50px; }
+
+  .nails_pic {
+    width: 350px; }
+
+  .elos_pic {
+    width: 350px; }
+
+  .cut_pic {
+    width: 350px; }
+
+  .nails_wrapper {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

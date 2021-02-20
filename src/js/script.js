@@ -1,5 +1,25 @@
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  const menu = document.querySelector('.links_block_hamburger'),
+  menuItem = document.querySelectorAll('.links_item'),
+  hamburger = document.querySelector('.hamburger');
+
+  hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('hamburger_active');
+      menu.classList.toggle('links_block_hamburger_active');
+  });
+  menuItem.forEach(item => {
+      item.addEventListener('click', () => {
+          hamburger.classList.toggle('hamburger_abc');
+          menu.classList.toggle('.links_item_active');
+      })
+  })
+})
+
+
 $(document).ready(function(){
-    $('button.dropbtn').on('hover', function(){
+    $('button.links_item_btn').on('hover', function(){
         $('.dropdown-content')
         .toggleClass('dropdown-content_active')
     });

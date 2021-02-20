@@ -105,3 +105,120 @@
         &_price
             width: 50%
 @media (max-width: 850px)
+    nav
+        margin-left: -20px
+    .dropdown-content 
+        &.dropdown-content
+            &_active
+                left: 320px 
+    .study
+        &_pic
+            width: 350px
+        &_text
+            padding-right: 50px 
+    .smas
+        &_line  
+            margin-top: 80px
+    .hair
+        &_pic
+            margin-left: 0px
+@media (max-width: 769px)
+    .hamburger
+        display: block
+        position: absolute
+        right: 100px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 3px
+            width: 100%
+            background-color: black
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2) 
+                    display: none 
+                &:nth-child(3) 
+                    transform: translateY(3px) rotate(45deg)
+    .links
+        &_block
+            &_hamburger
+                position: fixed
+                flex-direction: column
+                justify-content: space-between
+                align-items: space-between
+                top: 0%
+                left: -100%
+                width: 50%
+                height: 100% 
+                padding: 150px 20px
+                background-color: rgba(0,0,0, .9 )
+                transition: 0.6s all
+                &_active
+                    left: 0%
+            &_logo
+                display: flex
+                justify-content: center
+                align-items: center
+                margin: 0 auto
+        &_item
+                color: white
+                font-size: 20px 
+                margin-right: 0px
+                &:last-child
+                    margin-right: 0px
+                &:hover
+                    color: white
+                    transform: scale(1)
+                    transition: 1s all
+    a
+        &.links 
+            &_item
+                color: white
+                font-size: 20px 
+                margin-right: 0px
+                &:last-child
+                    margin-right: 0px
+                &:hover
+                    color: white
+                    transform: scale(1)
+                    transition: 1s all
+    img
+        &.down
+            display: none
+    .drop   
+        margin-right: 0px
+    .dropdown-content 
+        &.dropdown-content
+            &_active
+                left: 85px
+                top: 190px  
+    .study
+        &_pic
+            display: none
+        &_grow
+            width: 350px
+        &_permanent
+            width: 350px
+    nav
+        margin-left: -50px
+    .nails
+        &_pic
+            width: 350px    
+    .elos
+        &_pic
+            width: 350px
+    .cut
+        &_pic
+            width: 350px
+    .nails
+        &_wrapper
+            margin-top: 20px
+            
