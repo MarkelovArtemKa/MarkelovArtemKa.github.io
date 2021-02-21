@@ -221,7 +221,47 @@
     .nails
         &_wrapper
             margin-top: 20px
+@media (max-width: 641px)
+    .study
+        &_text
+            display: none
+        &_line
+            display: none
+        &_program
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+        &_permanent
+            margin-bottom: 30px
+    .about
+        &_wrapper
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+        &_text
+            margin-right: 0px
+            margin-bottom: 20px 
+    .contact
+        &_wrapper
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+        &_block
+            margin-top: 30px
+            &:nth-child(1)
+                margin-top: 0px 
+    .dropdown-content 
+        &.dropdown-content
+            &_active
+                left: 52px
+
+
 @media (max-width: 479px)
+    nav
+        margin-left: -47px  
     .about
         &_wrapper
             display: flex
@@ -232,7 +272,7 @@
             margin-right: 0px
             margin-bottom: 20px
     .hamburger
-        right: 40px 
+        right: 30px 
     .dropdown-content 
         &.dropdown-content
             &_active
@@ -276,7 +316,22 @@
         &_close 
             right: 10px
             color: black  
-            top: 4px    
+            top: 4px   
+    .contact
+        &_wrapper
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+        &_block
+            margin-top: 30px
+            &:nth-child(1)
+                margin-top: 0px
+@media (max-width: 415px) 
+    .dropdown-content 
+        &.dropdown-content
+            &_active
+                left: 0px
 @media (max-width: 376px)
     .main
         &_logo
