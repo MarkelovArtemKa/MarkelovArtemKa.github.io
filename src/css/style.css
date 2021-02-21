@@ -201,8 +201,6 @@ img.logo_pic {
   -webkit-transition: 1s all;
   transition: 1s all; }
   .drop:hover {
-    -webkit-transform: scale(1.19);
-            transform: scale(1.19);
     -webkit-transition: 1s all;
     transition: 1s all;
     text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3); }
@@ -1212,7 +1210,7 @@ a.contact_a {
     left: -100%;
     width: 50%;
     height: 100%;
-    padding: 150px 20px;
+    padding: 200px 20px;
     background-color: rgba(0, 0, 0, 0.9);
     -webkit-transition: 0.6s all;
     transition: 0.6s all; }
@@ -1263,7 +1261,7 @@ a.contact_a {
 
   .dropdown-content.dropdown-content_active {
     left: 85px;
-    top: 190px; }
+    top: 235px; }
 
   .study_pic {
     display: none; }
@@ -1286,5 +1284,207 @@ a.contact_a {
 
   .nails_wrapper {
     margin-top: 20px; } }
+@media (max-width: 479px) {
+  .about_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .about_text {
+    margin-right: 0px;
+    margin-bottom: 20px; }
+
+  .hamburger {
+    right: 40px; }
+
+  .dropdown-content.dropdown-content_active {
+    left: 10px; }
+
+  .main_wrapper {
+    padding: 0px 30px 0px 30px; }
+
+  .study_text {
+    padding: 0px 50px 0px 50px; }
+  .study_program {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .study_permanent {
+    margin-bottom: 40px; }
+
+  .about_title {
+    text-align: center;
+    margin-left: 0px; }
+
+  .contact_wrapper {
+    padding: 0px 10px; }
+
+  .nails_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .nails_cosm {
+    width: 400px; }
+
+  .elos_main_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .modal_close {
+    right: 10px;
+    color: black;
+    top: 4px; } }
+@media (max-width: 376px) {
+  .main_logo {
+    width: 250px; }
+
+  .study_permanent {
+    width: 250px; }
+  .study_grow {
+    width: 250px; }
+
+  .about_pic img {
+    width: 300px; }
+
+  .contact_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .contact_block {
+    margin-top: 30px; }
+    .contact_block:nth-child(1) {
+      margin-top: 0px; }
+
+  nav {
+    margin-left: -37px; }
+
+  img.logo_pic {
+    margin-right: 0px; }
+
+  .hamburger {
+    right: 25px; }
+
+  .dropdown-content.dropdown-content_active {
+    left: 0px; }
+
+  .nails_cosm {
+    width: 300px; }
+  .nails_block {
+    margin-top: 0px; }
+
+  .cosm_price {
+    width: 45%; } }
+@media (max-width: 321px) {
+  img.logo_pic {
+    display: none; }
+
+  .links_name {
+    margin-left: -15px; }
+
+  .study_text {
+    display: none; }
+  .study_line {
+    display: none; }
+
+  .footer img.footer_logo {
+    display: block;
+    margin: 0 auto;
+    width: 120px; }
+
+  .modal_close {
+    right: 40px; }
+
+  .nails_pic {
+    width: 250px; }
+  .nails_descr {
+    width: 300px; }
+
+  .elos_text {
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .elos_pic {
+    width: 250px; }
+  .elos_descr {
+    margin-right: 0px;
+    margin-bottom: 10px; }
+  .elos_line {
+    display: none; }
+  .elos_money {
+    margin-right: 0px;
+    margin-bottom: 20px; }
+
+  .cut_pic {
+    width: 250px; }
+
+  .nails_cosm {
+    width: 250px; }
+
+  .cosm_price {
+    width: 50%; }
+
+  .hair_price {
+    width: 60%; } }
 
 /*# sourceMappingURL=style.css.map */
